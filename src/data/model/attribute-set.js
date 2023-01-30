@@ -1,9 +1,11 @@
 class AttributeSet {
+  name;
   id;
   items = [];
   type = 'text';
 
   constructor(name) {
+    this.name = name;
     this.id = name;
   }
 
